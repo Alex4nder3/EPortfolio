@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Experienced professional offering high-quality digital and creative services. Discover my portfolio and work with me to turn your ideas into impactful results.">
+   <meta name="robots" content="index, follow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS - Insert link for icons ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+
+   <!--=============== SWIPER CSS - Insert link for swiperjs ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Alex | Portfolio</title>
+</head>
+<body>
+   <!--==================== HEADER & NAV ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#home" class="nav__logo">Alex</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#work" class="nav__link">Works</a>
+               </li>
+
+               <li>
+                  <a href="#service" class="nav__link">My Services</a>
+               </li>
+
+               <li>
+                  <a href="#skills" class="nav__link">Skills</a>
+               </li>
+
+               <li>
+                  <a href="#contact" class="nav__contact">Contacts</a>
+               </li>
+            </ul>
+
+            <!-- Close -->
+            <button class="nav__close" id="nav-close" aria-label="Close menu">
+               <i class="ri-close-large-line"></i>
+            </button>
+         </div>
+
+         <!-- Toggle -->
+         <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+            <i class="ri-menu-line"></i>
+         </button>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!-- CUSTOM CURSOR -->
+
+      <!--==================== HOME SECTION ====================-->
+      <section class="home section" id="home">
+         <div class="grid home__container container">
+            <div class="home__content">
+               <span class="home__subtitle">Hello, I'm</span>
+               <h1 class="home__title">Alex</h1>
+               <h2 class="home__role">
+                  I am a <span id="typed-text"></span>
+               </h2>
+               <p class="home__description">
+                  Building interactive 3D worlds, scalable back-end systems, and detailed digital assets.
+               </p>
+               <div class="home__buttons">
+                  <a href="#work" class="button">View My Work</a>
+                  <a href="#contact" class="button button--ghost">Contact Me</a>
+               </div>
+            </div>
+
+            <div class="home__image-wrapper">
+               <!-- Replace src with your photo in assets/img/profile.png -->
+               <img src="assets/img/pic.jpg"Alex Profile" class="home__img" onerror="this.src='https://placehold.com'">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT SECTION (Job Experience) ====================-->
+      <section class="about section" id="about">
+         <div class="container">
+            <h2 class="section__title">Job Experience</h2>
+            <span class="section__subtitle">My professional journey</span>
+
+            <!-- LinkedIn-Style Company Card -->
+            <div class="linkedin-card">
+               <div class="linkedin-card__header">
+                  <div class="linkedin-card__logo">
+                     <i class="ri-building-4-line"></i>
+                  </div>
+                  <div>
+                     <h3 class="linkedin-card__company">Arterion PH</h3>
+                     <p class="linkedin-card__total-time">Multiple Roles • Philippines</p>
+                  </div>
+               </div>
+
+               <div class="linkedin-timeline">
+                  <!-- Role 1 -->
+                  <div class="linkedin-role">
+                     <span class="linkedin-role__dot"></span>
+                     <h4 class="linkedin-role__title">IT Specialist</h4>
+                     <p class="linkedin-role__meta">Freelance • Jan 2025 – Sep 2026</p>
+                     <p class="linkedin-role__desc">
+                        Developed and maintained web platforms and back-end integrations
+                     </p>
+                  </div>
+
+                  <!-- Role 2 -->
+                  <div class="linkedin-role">
+                     <span class="linkedin-role__dot"></span>
+                     <h4 class="linkedin-role__title">Game Developer</h4>
+                     <p class="linkedin-role__meta">Freelance • Sep 2026 – Present</p>
+                     <p class="linkedin-role__desc">
+                        Programming core gameplay mechanics, 3D systems, and interactive player experiences in Unity.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+<!--==================== WORK SECTION (Personal Projects & Albums) ====================-->
+      <section class="work section" id="work">
+         <div class="container">
+            <h2 class="section__title">Personal Projects</h2>
+            <span class="section__subtitle">Featured games and applications. Hover for screenshots of the Projects.</span>
+
+<div class="grid work__grid">
+               <!-- Project 1: Kulay ng Isip -->
+               <article class="work__card">
+                  <div class="work__img-wrap">
+                     <!-- 1st Image = COVER PAGE -->
+                     <img src="assets/img/Kulay Ng Isip.jpg" alt="Kulay ng Isip - Cover" class="work__img is-active">
+
+                     <!-- 2nd, 3rd, etc. = HOVER CYCLE PICTURES (Add as many as you want here!) -->
+                     <img src="assets/img/albums/kulay-1.jpg" alt="Kulay ng Isip - Gameplay 1" class="work__img">
+                     <img src="assets/img/albums/kulay-2.jpg" alt="Kulay ng Isip - Gameplay 2" class="work__img">
+
+                     <span class="status-badge" data-status="ongoing">Ongoing</span>
+                     <div class="work__hover-bars"></div>
+                  </div>
+                  <div class="work__data">
+                     <h3 class="work__title">Kulay ng Isip</h3>
+                     <p class="work__description">
+                        A capstone project in partial fulfillment of the degree Bachelor of Science in Information Technology with specialization in Animation & Game Development at Far Eastern University Institute of Technology.
+                     </p>
+                     <div class="work__tags">
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>3D Modeling</span>
+                     </div>
+                  </div>
+               </article>
+
+               <!-- Project 2: Mobile Space Shooter -->
+               <article class="work__card">
+                  <div class="work__img-wrap">
+                     <!-- 1st Image = COVER PAGE (Your Space Krieger image) -->
+                     <img src="assets/img/space_krieg_06.jpg" alt="Mobile Space Shooter - Cover" class="work__img is-active">
+
+                     <!-- 2nd, 3rd, etc. = HOVER CYCLE PICTURES (Put your extra screenshots here!) -->
+                     <img src="assets/img/albums/space_krieg_01.jpg" alt="Mobile Space Shooter - Gameplay 1" class="work__img">
+                     <img src="assets/img/albums/space_krieg_02.jpg" alt="Mobile Space Shooter - Gameplay 2" class="work__img">
+                     <img src="assets/img/albums/space_krieg_03.jpg" alt="Mobile Space Shooter - Gameplay 3" class="work__img">
+                     <img src="assets/img/albums/space_krieg_04.jpg" alt="Mobile Space Shooter - Gameplay 3" class="work__img">
+                     <img src="assets/img/albums/space_krieg_05.jpg" alt="Mobile Space Shooter - Gameplay 3" class="work__img">
+
+                     <span class="status-badge" data-status="completed">Completed</span>
+                     <div class="work__hover-bars"></div>
+                  </div>
+                  <div class="work__data">
+                     <h3 class="work__title">Mobile Space Shooter</h3>
+                     <p class="work__description">
+                        Basic Arcade shooter project that is developed with Unity to test mobile device gameplay and production.
+                     </p>
+                     <div class="work__tags">
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>Mobile</span>
+                     </div>
+                  </div>
+               </article>
+            </div>
+
+            <!--==================== CREATIVE ALBUMS (Below Projects) ====================-->
+            <div class="albums__wrapper">
+               <h3 class="albums__heading">Creative Works & Albums</h3>
+               <p class="albums__subheading">Click an album to view the full compilation</p>
+
+               <div class="grid albums__grid">
+                  <!-- Album 1: 3D Models -->
+                  <article class="album__card" data-album="models">
+                     <div class="album__img-wrap">
+                        <img src="assets/img/albums/Mod_Pizza.jpg" alt="3D Models Album" class="album__img" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80'">
+                        <span class="album__badge"><i class="ri-movie-line"></i> View Album</span>
+                     </div>
+                     <div class="album__info">
+                        <h4 class="album__title">3D Models</h4>
+                        <span class="album__meta">Character Models, Props and Objects</span>
+                     </div>
+                  </article>
+
+                  <!-- Album 2: Rigging -->
+                  <article class="album__card" data-album="rigging">
+                     <div class="album__img-wrap">
+                        <img src="assets/img/albums/animation-cover.jpg" alt="Rigging Album" class="album__img" onerror="this.src='https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=600&q=80'">
+                        <span class="album__badge"><i class="ri-movie-line"></i> View Album</span>
+                     </div>
+                     <div class="album__info">
+                        <h4 class="album__title">Rigging</h4>
+                        <span class="album__meta">Skeleton, Rigging, Skinning and Skinweights</span>
+                     </div>
+                  </article>
+
+                  <!-- Album 3: Animation -->
+                  <article class="album__card" data-album="animation">
+                     <div class="album__img-wrap">
+                        <img src="assets/img/albums/animation-cover.jpg" alt="Animation Album" class="album__img" onerror="this.src='https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80'">
+                        <span class="album__badge"><i class="ri-movie-line"></i> View Album</span>
+                     </div>
+                     <div class="album__info">
+                        <h4 class="album__title">Animation</h4>
+                        <span class="album__meta">Character Animations, NPC Animations and Enemy Animations</span>
+                     </div>
+                  </article>
+
+                  <!-- Album 4: Kulay Ng Isip Personal Works -->
+                  <article class="album__card" data-album="animation">
+                     <div class="album__img-wrap">
+                        <img src="assets/img/albums/animation-cover.jpg" alt="Animation Album" class="album__img" onerror="this.src='https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80'">
+                        <span class="album__badge"><i class="ri-movie-line"></i> View Album</span>
+                     </div>
+                     <div class="album__info">
+                        <h4 class="album__title">Kulay Ng Isip Personal Contribution</h4>
+                        <span class="album__meta">Combat Design, Player Related Scripting and EnemyAI</span>
+                     </div>
+                  </article>
+
+         <!--==================== ALBUM GALLERY MODAL ====================-->
+         <div class="gallery-modal" id="gallery-modal" aria-hidden="true">
+            <div class="gallery-modal__overlay" id="gallery-overlay"></div>
+            <div class="gallery-modal__content">
+               <div class="gallery-modal__header">
+                  <h3 class="gallery-modal__title" id="gallery-title">Album Title</h3>
+                  <button class="gallery-modal__close" id="gallery-close" aria-label="Close gallery">
+                     <i class="ri-close-large-line"></i>
+                  </button>
+               </div>
+
+               <!-- Swiper Slider Container -->
+               <div class="swiper gallery-swiper">
+                  <div class="swiper-wrapper" id="gallery-swiper-wrapper">
+                     <!-- Slides are injected dynamically via main.js -->
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--==================== SERVICES SECTION ====================-->
+      <section class="services section" id="service">
+         <div class="container">
+            <h2 class="section__title">My Services</h2>
+            <span class="section__subtitle">What I can build for you</span>
+
+            <div class="grid services__grid">
+               <div class="service__card">
+                  <i class="ri-gamepad-line service__icon"></i>
+                  <h3 class="service__title">Game Development</h3>
+                  <p class="service__description">3D and 2D gameplay programming, physics implementation, and mechanics design in Unity.</p>
+               </div>
+
+               <div class="service__card">
+                  <i class="ri-server-line service__icon"></i>
+                  <h3 class="service__title">Back-End Development</h3>
+                  <p class="service__description">Database architecture, REST APIs, and server-side logic for web and game applications.</p>
+               </div>
+
+               <div class="service__card">
+                  <i class="ri-box-3-line service__icon"></i>
+                  <h3 class="service__title">3D Modeling</h3>
+                  <p class="service__description">Hard-surface and character modeling, UV unwrapping, rigging, and texturing in Autodesk Maya.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SKILLS SECTION ====================-->
+      <section class="skills section" id="skills">
+         <div class="container">
+            <h2 class="section__title">Skills & Languages</h2>
+            <span class="section__subtitle">Tools and technologies I use</span>
+
+            <!-- Software & Engines -->
+            <h3 class="skills__category-title">Core Software & Engines</h3>
+            <div class="grid skills__tools">
+               <div class="tool__card">
+                  <div class="tool__header">
+                     <h4>Autodesk Maya</h4>
+                     <span class="tool__exp">3 Years Exp</span>
+                  </div>
+                  <p class="tool__desc">3D Modeling, UV Unwrapping, Rigging & Animation</p>
+               </div>
+
+               <div class="tool__card">
+                  <div class="tool__header">
+                     <h4>Unity Engine</h4>
+                     <span class="tool__exp">2 Years Exp</span>
+                  </div>
+                  <p class="tool__desc">3D/2D Gameplay Scripting, Physics & Asset Integration</p>
+               </div>
+            </div>
+
+            <!-- Programming Languages (Adjust --level percentage and label as needed) -->
+            <h3 class="skills__category-title">Programming Languages</h3>
+            <div class="grid skills__languages">
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">C#</span>
+                     <span class="lang__level">Advanced (90%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 90%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">HTML</span>
+                     <span class="lang__level">Advanced (90%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 90%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">CSS</span>
+                     <span class="lang__level">Advanced (85%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 85%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">JavaScript</span>
+                     <span class="lang__level">Proficient (80%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 80%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">TypeScript</span>
+                     <span class="lang__level">Proficient (75%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 75%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">Python</span>
+                     <span class="lang__level">Intermediate (70%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 70%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">PHP</span>
+                     <span class="lang__level">Intermediate (65%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 65%;"></span></div>
+               </div>
+
+               <div class="lang__item">
+                  <div class="lang__info">
+                     <span class="lang__name">C++</span>
+                     <span class="lang__level">Intermediate (65%)</span>
+                  </div>
+                  <div class="lang__bar"><span class="lang__fill" style="--level: 65%;"></span></div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- ==================== TESTIMONIALS SECTION (Used for Certifications) ==================== -->
+      <!-- <section class="testimonials section" id="certifications">
+         <div class="container">
+            <h2 class="section__title">Licenses & Certifications</h2>
+            <span class="section__subtitle">Verified credentials</span>
+
+            <div class="grid cert__grid">
+               <!-- Certificate 1 -->
+               <!-- <div class="cert__card">
+                  <div class="cert__icon">
+                     <i class="ri-award-line"></i>
+                  </div>
+                  <div class="cert__body">
+                     <h3 class="cert__title">PMI Project Management Ready</h3>
+                     <p class="cert__issuer">Project Management Institute • Issued 2026</p>
+                     <p class="cert__id">Credential ID: YOUR-ID-HERE</p>
+                     <a href="https://www.credly.com/" target="_blank" rel="noopener noreferrer" class="cert__button">
+                        Show credential <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </div> -->
+
+               <!-- Certificate 2 (Duplicate this block to add more) -->
+               <!-- <div class="cert__card">
+                  <div class="cert__icon">
+                     <i class="ri-shield-check-line"></i>
+                  </div>
+                  <div class="cert__body">
+                     <h3 class="cert__title">Cisco Networking Academy Certificate</h3>
+                     <p class="cert__issuer">Cisco • Issued 2026</p>
+                     <p class="cert__id">Credential ID: YOUR-ID-HERE</p>
+                     <a href="#" target="_blank" rel="noopener noreferrer" class="cert__button">
+                        Show credential <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+
+<!--==================== CONTACT SECTION ====================-->
+      <section class="contact section" id="contact">
+         <div class="container">
+            <h2 class="section__title">Contacts</h2>
+            <span class="section__subtitle">Get in touch with me directly</span>
+
+            <div class="grid contact__grid">
+               <!-- Phone -->
+               <div class="contact__card">
+                  <i class="ri-phone-line contact__icon"></i>
+                  <div>
+                     <h3 class="contact__title">Number</h3>
+                     <a href="tel:09668964223" class="contact__Value">09668964223</a>
+                  </div>
+               </div>
+
+               <!-- Email -->
+               <div class="contact__card">
+                  <i class="ri-mail-send-line contact__icon"></i>
+                  <div>
+                     <h3 class="contact__title">Email</h3>
+                     <a href="mailto:ajgeliarda@gmail.com" class="contact__Value">ajgeliarda@gmail.com</a>
+                  </div>
+               </div>
+
+               <!-- Socials -->
+               <div class="contact__card contact__card--socials">
+                  <i class="ri-share-forward-line contact__icon"></i>
+                  <div>
+                     <h3 class="contact__title">Socials</h3>
+                     <div class="contact__socials">
+                        <a href="https://www.facebook.com/alexanderjay.eliarda" target="_blank" rel="noopener noreferrer" class="contact__social-link">
+                           <i class="ri-facebook-circle-fill"></i> Facebook
+                        </a>
+                        <a href="https://www.linkedin.com/in/alexander-jay-eliarda-36b19840b/" target="_blank" rel="noopener noreferrer" class="contact__social-link">
+                           <i class="ri-linkedin-box-fill"></i> LinkedIn
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="container footer__container">
+         <p class="footer__copy">&#169; 2026 Alex. All rights reserved.</p>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+   
+   <!--=============== TYPED JS - Insert link for text animations ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+   
+   <!--=============== SWIPER JS - Insert link for swiperjs ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+   <!--=============== EMAIL JS - Insert link to send emails ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
