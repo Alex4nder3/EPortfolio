@@ -101,16 +101,45 @@ const ALBUM_DATA = {
             fallback: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1000&q=80',
             caption: 'Simple Lampshelf model'
          }
-         
       ]
    },
    rigging: {
       title: 'Character & Prop Rigging',
       items: [
          {
-            src: 'assets/img/albums/rig-1.jpg',
+            src: 'assets/img/albums/Rig_KniMC_01.png',
             fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
-            caption: 'Biped IK/FK control rig and weight painting in Maya'
+            caption: 'Kulay ng Isip Player Rig and Skinweight'
+         },
+                  {
+            src: 'assets/img/albums/Rig_KniMC_02.jpg',
+            fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip Player Rig in wireframe mode'
+         },
+                  {
+            src: 'assets/img/albums/Rig_Blobboss_01.png',
+            fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip Blob boss Rig and Skinweight'
+         },
+                  {
+            src: 'assets/img/albums/Rig_Blobboss_02.png',
+            fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip Blob boss Rig in wireframe mode'
+         },
+                  {
+            src: 'assets/img/albums/Rig_PencilBoss_01.png',
+            fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip Pencil boss Rig and Skinweight'
+         },
+                  {
+            src: 'assets/img/albums/Rig_PaintBucket_01.png',
+            fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip PaintBucket boss Rig and Skinweight'
+         },
+                  {
+            src: 'assets/img/albums/Rig_PaintBucket_02.png',
+            fallback: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip PaintBucket boss Rig in wireframe mode'
          }
       ]
    },
@@ -124,13 +153,33 @@ const ALBUM_DATA = {
          }
       ]
    },
-   photography: {
-      title: 'Photography Portfolio',
+   kulayngisip: {
+      title: 'Kulay ng Isip Backend Systems',
       items: [
          {
-            src: 'assets/img/albums/photo-1.jpg',
+            src: 'assets/img/albums/KNI_01.png',
             fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
-            caption: 'Event & branding photography'
+            caption: 'All Enemy AI related backend system'
+         },
+         {
+            src: 'assets/img/albums/KNI_04.png',
+            fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
+            caption: 'All Enemy AI related backend system in Unity view'
+         },
+         {
+            src: 'assets/img/albums/KNI_05.png',
+            fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
+            caption: 'All Boss AI related backend system in Unity view'
+         },
+         {
+            src: 'assets/img/albums/KNI_02.png',
+            fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
+            caption: 'All player related scripts'
+         },
+         {
+            src: 'assets/img/albums/KNI_03.png',
+            fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
+            caption: 'All animation controllers for Player and NPC/Enemies in the game world'
          }
       ]
    }
