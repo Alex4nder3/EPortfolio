@@ -147,9 +147,9 @@ const ALBUM_DATA = {
       title: '3D Animation Reels & Cycles',
       items: [
          {
-            src: 'assets/img/albums/anim-1.jpg',
+            src: 'assets/img/albums/KNI_07.mp4',
             fallback: 'https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=80',
-            caption: 'Character walk & combat animation keyframing'
+            caption: 'Kulay ng Isip combat'
          }
       ]
    },
@@ -180,6 +180,11 @@ const ALBUM_DATA = {
             src: 'assets/img/albums/KNI_03.png',
             fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
             caption: 'All animation controllers for Player and NPC/Enemies in the game world'
+         },
+         {
+            src: 'assets/img/albums/KNI_07.mp4',
+            fallback: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80',
+            caption: 'Kulay ng Isip combat design'
          }
       ]
    }
@@ -200,10 +205,10 @@ function openAlbumModal(albumKey) {
 
    /* Build slides (supports both images and .mp4/.webm videos) */
    galleryWrapper.innerHTML = album.items.map(item => {
-      const isVideo = /\.(mp4|webm)$/i.test(item.src);
-      const mediaTag = isVideo
-         ? `<video src="${item.src}" controls class="gallery-slide__media"></video>`
-         : `<img src="${item.src}" alt="${item.caption}" class="gallery-slide__media" onerror="this.src='${item.fallback || ''}'">`;
+    const isVideo = /\.(mp4|webm|ogg)$/i.test(item.src);
+    const mediaTag = isVideo
+      ? `<video src="${item.src}#t=0.001" controls playsinline preload="metadata" class="gallery-slide__media swiper-no-swiping"></video>`
+      : `<img src="${item.src}" alt="${item.caption}" class="gallery-slide__media" onerror="this.src='${item.fallback || ''}'">`;
 
       return `
          <div class="swiper-slide gallery-slide">
